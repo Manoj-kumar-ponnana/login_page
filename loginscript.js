@@ -19,7 +19,8 @@ function check(){
     y=document.getElementById('pass').value
     res=document.getElementById('res')
     if(x=='manoj'&&y=='2002'){
-        res.innerHTML='login successful'
+        // res.innerHTML='login successful'
+        alert('Logged In Successfully !!')
     }
     else{
         res.innerHTML='invalid credentials !!'
