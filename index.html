@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginstyle.css">
+    <script src="loginscript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="block">
+            <h2 id="heading">Login</h2>
+            <input type="text" id="user_id" placeholder="Enter User ID">
+            <div id="wrapper">
+                <input type="password" id="pass" placeholder="Enter the Password">
+                <img id="eye" class="d-none" src="icons8-eye-50.png" onclick="eyeclick()">
+                <img id="eyeBlind" class="d-block" src="icons8-blind-50.png" onclick="eyeclick()">
+            </div>
+            
+            <button type="submit" id="btn" onclick="check()">login</button>
+            <p id="res">&emsp;</p>
+        </div>
+    </div>
+</body>
+</html>
